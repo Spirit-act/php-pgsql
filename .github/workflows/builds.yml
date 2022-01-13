@@ -23,7 +23,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
-          image: spiritact/php-pgsql
-          tags: php8.1-fpm
+          image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
+          tags: 8.1-fpm
           registry: docker.io
-          dockerfile: php8.1-fpm/Dockerfile
+          dockerfile: 8.1-fpm/Dockerfile
