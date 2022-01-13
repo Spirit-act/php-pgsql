@@ -45,7 +45,7 @@ jobs:
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
-          tags: 8.1-fpm
+          tags: 8.0-fpm
           registry: docker.io
           dockerfile: 8.0-fpm/Dockerfile
           
