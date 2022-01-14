@@ -228,7 +228,7 @@ jobs:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
           tags: 8.1-cli, 8.1-cli-alpine, 8.1-cli-alpine3.15
           registry: docker.io
-          dockerfile: 8.1/cli/Dockerfile
+          dockerfile: 8.1/alpine/cli/Dockerfile
 
   build-8_1-cli-bullseye:
     runs-on: ubuntu-latest
