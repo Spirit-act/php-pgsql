@@ -22,7 +22,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -42,7 +42,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -62,7 +62,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -82,7 +82,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -102,7 +102,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -122,7 +122,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -142,7 +142,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -162,7 +162,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -182,7 +182,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
         
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -202,7 +202,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
         
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -222,7 +222,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -242,7 +242,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push@v5
+      - uses: mr-smithers-excellent/docker-build-push@master
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
