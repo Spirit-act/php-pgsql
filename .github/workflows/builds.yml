@@ -13,16 +13,16 @@ jobs:
   build-7_4-fpm-alpine:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -33,16 +33,16 @@ jobs:
   build-7_4-fpm-bullseye:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -53,16 +53,16 @@ jobs:
   build-7_4-cli-alpine:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -73,16 +73,16 @@ jobs:
   build-7_4-cli-bullseye:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -93,16 +93,16 @@ jobs:
   build-8_0-fpm-alpine:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -113,16 +113,16 @@ jobs:
   build-8_0-fpm-bullseye:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -133,16 +133,16 @@ jobs:
   build-8_0-cli-alpine:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -153,16 +153,16 @@ jobs:
   build-8_0-cli-bullseye:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -173,16 +173,16 @@ jobs:
   build-8_1-fpm-alpine:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
       
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
         
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -193,16 +193,16 @@ jobs:
   build-8_1-fpm-bullseye:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
       
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
         
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -213,16 +213,16 @@ jobs:
   build-8_1-cli-alpine:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
@@ -233,16 +233,16 @@ jobs:
   build-8_1-cli-bullseye:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v3
         name: Check out code
 
       - name: Login to DockerHub
-        uses: docker/login-action
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: mr-smithers-excellent/docker-build-push
+      - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
           image: ${{ secrets.DOCKERHUB_USERNAME }}/php-pgsql
