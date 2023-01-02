@@ -1,4 +1,4 @@
-FROM php:7.4-cli-alpine3.17
+FROM php:7.4-cli-alpine3.16
 
 RUN apk add postgresql-dev
 
